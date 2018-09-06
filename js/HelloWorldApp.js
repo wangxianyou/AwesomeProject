@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
     red: {
         color: 'red',
         fontWeight:'bold',
-        fontSize:30,
+        fontSize:20,
     },
     black: {
         color: 'black',
