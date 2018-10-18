@@ -32,4 +32,4 @@ const styles = StyleSheet.create({
         textAlignVertical:'center',
         height:44
     }
-})
+});
