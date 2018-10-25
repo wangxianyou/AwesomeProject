@@ -12,6 +12,7 @@ import HelloScrollview from "./js/HelloScrollview";
 import HelloFlatList from "./js/HelloFlatList";
 import {HelloSectionList} from "./js/HelloSectionListDemo";
 import HelloFilm from "./js/HelloFilm"
+import HelloReactNavigation from "./js/HelloNavigator"
 
 AppRegistry.registerComponent(appName, () => App);
 AppRegistry.registerComponent(appName, () => HelloWorldApp);
@@ -19,3 +20,4 @@ AppRegistry.registerComponent(scrollviewName, () => HelloScrollview);
 AppRegistry.registerComponent(flatlistName, () => HelloFlatList);
 AppRegistry.registerComponent(sectionlistName, () => HelloSectionList);
 AppRegistry.registerComponent(filmName,() => HelloFilm);
+AppRegistry.registerComponent("HelloReactNavigation",() => HelloReactNavigation);

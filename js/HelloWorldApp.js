@@ -29,7 +29,7 @@ export default class HelloWorldApp extends Component {
         };
         return (
             <View style={{flex: 1}}>
-                <Image source={pic} style={{flex: 1, backgroundColor: 'powderblue'}}/>
+                <Image source={require("./image/alarmclock.png")} style={{ backgroundColor: 'powderblue'}}/>
                 <Text style={{flex: 1, backgroundColor: 'powderblue'}}>Hello world!</Text>
                 <Greeting name='wwwwwwww'/>
                 <Blink text='im a blink' style={{flex: 1, backgroundColor: 'powderblue'}}/>
